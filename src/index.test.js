@@ -1,10 +1,14 @@
 import React from 'react';
-import Component from './index';
+import Memenaitor from './index';
 import { shallow } from 'enzyme';
 
-describe('Example test', () => {
-    it('Should render any component', () => {
-        const wrapper = shallow(<Component />);
+describe('</Memenaitor>', () => {
+    it('Should render the component correctly', () => {
+        const wrapper = shallow(<Memenaitor />);
         expect(wrapper).toBeDefined();
+    });
+    it('Should render the component correctly', () => {
+        const wrapper = shallow(<Memenaitor />);
+        expect(wrapper).toMatchSnapshot();
     });
 });

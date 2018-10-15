@@ -1,6 +1,6 @@
 {
   "name": "memenaitor",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A react component to generate memes.",
   "main": "index.js",
   "author": "Felix Rigau <felixrigau88@gmail.com>",
