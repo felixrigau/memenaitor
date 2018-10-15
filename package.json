@@ -1,6 +1,6 @@
 {
   "name": "memenaitor",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A react component to generate memes.",
   "main": "index.js",
   "author": "Felix Rigau <felixrigau88@gmail.com>",
@@ -26,7 +26,9 @@
     "start": "nwb serve-react-demo",
     "test": "jest --config .test/jest.config.js",
     "test:watch": "jest --watch --config .test/jest.config.js",
-    "test:coverage": "jest --coverage --config .test/jest.config.js"
+    "test:coverage": "jest --coverage --config .test/jest.config.js",
+    "lint": "eslint --ext js --ext jsx src",
+    "format": "prettier-eslint --print-width 120 --tab-width 4 --single-quote --trailing-comma=es5 --eslint-config-path=./.eslintrc.js --write \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
     "babel-cli": "6.26.0",
@@ -45,7 +47,12 @@
     "nwb": "0.23.x",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "regenerator-runtime": "^0.12.1"
+    "regenerator-runtime": "^0.12.1",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.6.1",
+    "eslint-plugin-react": "7.11.1",
+    "prettier": "1.14.3",
+    "prettier-eslint-cli": "4.7.1"
   },
   "keywords": [
     "meme",
