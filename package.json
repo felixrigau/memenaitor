@@ -1,6 +1,6 @@
 {
   "name": "memenaitor",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A react component to generate memes.",
   "main": "index.js",
   "author": "Felix Rigau <felixrigau88@gmail.com>",
@@ -21,7 +21,6 @@
   ],
   "scripts": {
     "build": "nwb build-react-component",
-    "publish": "npm publish",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
