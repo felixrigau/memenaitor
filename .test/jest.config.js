@@ -6,8 +6,8 @@ module.exports = {
         "js",   
         "jsx"
     ],
-    transform: {
-        "^.+\\.(js|jsx)$": "babel-jest"
+    "transform": {
+        "^.+\\.js$": "<rootDir>/.test/jest.transform.js"
     },
     setupTestFrameworkScriptFile: "<rootDir>/.test/enzyme.config.js",
 }

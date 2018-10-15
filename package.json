@@ -1,9 +1,9 @@
 {
   "name": "memenaitor",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A react component to generate memes.",
   "main": "index.js",
-  "author": "Felix Rigau",
+  "author": "Felix Rigau <felixrigau88@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
