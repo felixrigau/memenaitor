@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Memenaitor from './components/memenaitor/memenaitor';
+import App from './app';
 
-ReactDOM.render(<Memenaitor />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 module.hot.accept();
 
-export { default as Memenaitor } from './components/memenaitor/memenaitor';
+export { default as Memenaitor } from './app';

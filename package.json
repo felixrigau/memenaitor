@@ -1,6 +1,6 @@
 {
   "name": "memenaitor",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A react component to generate memes.",
   "main": "dist/bundle.js",
   "author": "Felix Rigau <felixrigau88@gmail.com>",
@@ -24,13 +24,20 @@
     "format": "prettier-eslint --print-width 120 --tab-width 4 --single-quote --trailing-comma=es5 --eslint-config-path=./.eslintrc.js --write \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "axios": "^0.18.0",
     "classnames": "2.2.6",
     "enzyme": "3.7.0",
     "enzyme-adapter-react-16": "1.6.0",
+    "promise-file-reader": "^1.0.2",
     "prop-types": "15.6.2",
     "react": "16.5.2",
+    "react-color": "^2.14.1",
     "react-dom": "16.5.2",
-    "react-jss": "8.6.1"
+    "react-jss": "8.6.1",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "@babel/core": "7.1.2",

@@ -1,19 +1,46 @@
 const styles = {
+    memenaitorContainer: {
+        width: '100%',
+        height: '600px',
+        display: 'flex',
+        border: '1px solid black',
+    },
+    canvasContainer: {
+        width: '50%',
+        height: 'auto',
+        display: 'flex',
+        flexDirection: 'column',
+    },
+    toolsBar: {
+        border: '1px solid black',
+        width: '100%',
+        height: '50px',
+    },
+    editorsContainer: {
+        width: '25%',
+        height: 'auto',
+        border: '1px solid black',
+    },
     container: {
-        width: props => `${props.width.toString()}px`,
-        height: props => `${props.height.toString()}px`,
-        backgroundColor: '#f7d13d',
-        margin: '100px 0 0 100px',
+        display: 'flex',
     },
     resultContainer: {
         position: 'relative',
         margin: '1px 0 0 0',
+        width: '300px',
     },
-    logo: {
-        position: 'absolute',
+    textTest: {
+        fontFamily: 'Impact',
+        fontSize: 28,
+        marginTop: '40px',
+        color: 'white',
+        textShadow: '1px 1px black',
     },
-    canvas: {
+    containerImage: {
         position: 'absolute',
+        width: '300px',
+        height: '300px',
+        overflow: 'hidden',
     },
     box: {
         width: '50px',
